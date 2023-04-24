@@ -1,0 +1,17 @@
+/* dark table styles */
+/*Add the necessary styling to make it simlar to the given table*/
+
+table.dark {
+	border: 1px solid #1a1a1a;}
+
+table.dark th {
+	border-bottom:1px solid #000;
+}
+
+table.dark td {
+	border-right:1px solid #1a1a1a;
+}
+
+table.dark h4 {
+	font-weight:normal;
+}
