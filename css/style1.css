@@ -1,0 +1,14 @@
+ul li {
+    text-align: center;
+    list-style-position:inside; 
+}   
+body {
+    background-color: #5B7FBD;
+    font: 0.70em Verdana, sans-serif;
+
+}
+.copyright {
+   font-size: 8px;
+   font-style: italic;
+   font-weight: 600;
+}
