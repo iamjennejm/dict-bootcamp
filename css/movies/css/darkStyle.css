@@ -1,8 +1,14 @@
 /* dark table styles */
-/*Add the necessary styling to make it simlar to the given table*/
+body {
+    font-size:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
 
 table.dark {
-	border: 1px solid #1a1a1a;}
+    background-color: black;
+	border: 1px solid #1a1a1a;
+}
 
 table.dark th {
 	border-bottom:1px solid #000;
@@ -10,8 +16,15 @@ table.dark th {
 
 table.dark td {
 	border-right:1px solid #1a1a1a;
+    padding: 10px;
+	font-size: 12px;
+	color: #C0C0C0;
 }
 
 table.dark h4 {
 	font-weight:normal;
+    margin: 0px !important;
+    padding: 0px !important;
+    color: #ffffff !important;
+    font-size: 16px;
 }
