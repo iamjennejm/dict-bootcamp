@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>MP3 Player</title>
+    <style>
+        div.row-input {
+            margin: 2px;
+        } 
+    </style>
+</head>
+<body>
+    <form class="" action="your_html_file.html" method="get" name="mp3playerForm" id="mp3playerForm">
+        <div class="form-div">
+            <h1> MP3 Player </h1>
+             <div class="row-input">
+                <label>Song: </label>
+                <select name="song" id="song">
+                  <option value="song1">Song 1</option>
+                  <option value="song2">Song 2</option>
+                  <option value="song3" selected>Song 3</option>
+                  <option value="song4">Song 4</option>
+                </select>
+            </div>
+            <div class="row-input">
+                <label>Volume: </label> <input id="volume" name="volume" type="range" min="1" max="100" value="50">
+              
+            </div>
+           
+            <div class="form-submit">
+                <button type="submit" class="button">Submit Review</button>
+            </div>
+         </div>
+    </form>
+   
+</body>
+</html>
