@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>My Favorite Things</title>
+    <style>
+        div.row-input {
+            margin: 2px;
+        } 
+    </style>
+</head>
+<body>
+    <form class="" action="" method="get" name="form1" id="form1">
+        <div class="form-div">
+            <h1> My Favorite Things</h1>
+             <div class="row-input">
+                <label>Books i've read: </label>
+                    <ol>
+                        <li>
+                            <input type="checkbox" id="book1" name="books" value="The Lord of the Rings">
+                            <label for="book1">The Lord of the Rings</label><br>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="book2" name="books" value="To Kill a Mockingbird">
+                            <label for="book2">To Kill a Mockingbird</label><br>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="book3" name="books" value="The Great Gatsby">
+                            <label for="book3">The Great Gatsby</label><br>
+                        </li>
+                    </ol>
+            </div>
+            <div class="row-input">
+                <ol>
+                    <li>
+                        <label>The Shawshank Redemption: </label> <input id="movie1" name="movies" type="range" min="1" max="100" value="50">
+                    </li>
+                    <li>
+                        <label>The Godfather </label> <input id="movie2" name="movies" type="range" min="1" max="100" value="50">
+                    </li>
+                    <li>
+                        <label>Pulp Fiction </label> <input id="movie3" name="movies" type="range" min="1" max="100" value="50">
+                    </li>
+                </ol>
+            </div>
+            <div class="row-input">
+                <ul>
+                    <li>
+                        <input type="radio" id="music1" name="music" value="The Beatles">
+                        <label for="music1">The Beatles</label><br>
+                    </li>
+                    <li>
+                        <input type="radio" id="music2" name="music" value="Bob Dylan">
+                        <label for="css">Bob Dylan</label><br>
+                    </li>
+                    <li>
+                        <input type="radio" id="music3" name="music" value="Johnny Cash">
+                        <label for="music3">Johnny Cash</label></div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="form-submit">
+                <button type="submit" class="button">Submit</button>
+            </div>
+         </div>
+    </form>
+   
+</body>
+</html>
