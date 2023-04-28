@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise: Multiplication Table</title>
+    <style>
+      table {
+        margin: 2px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        border-collapse: collapse;
+      }
+
+      th, td {
+        border: 1px solid black;
+        padding: 5px;
+        text-align: center;
+      }
+
+      th:first-child, td:first-child {
+        background-color: lightgray;
+      }
+
+      input[type="number"] {
+        width: 75%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Multiplication Table</h1>
+    <p>Fill in the missing numbers in the multiplication table below:</p>
+   
+    <form class="" action="your_html_file.html" method="get" name="mult_table" id="mult_table">
+        <table>
+            <tr>
+                <th></th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>2</th>
+                <td>2</td>
+                <td><input class="input-field" name="answer1" id="answer1" type="text" value=""></td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <th>3</th>
+                <td>3</td>
+                <td>6</td>
+                <td><input class="input-field" name="answer2" id="answer2" type="text" value=""></td>
+            </tr>
+        </table>
+        <div class="form-submit">
+            <button type="submit" class="button">Submit</button>
+        </div>
+    </form>
+  </body>
+</html>
